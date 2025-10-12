@@ -68,7 +68,7 @@ const sessionOptions={
 };
 
 app.get("/",(req,res)=>{
-  res.render("<h2>Hi,Welcome to my demo website</h2>");
+  res.send("Hi,Welcome to my demo website");
 });
 
 
